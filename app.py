@@ -1,5 +1,7 @@
 from flask import Flask , render_template , request
 import requests
+from collections.abc import Mapping
+
 
 app = Flask(__name__)
 
